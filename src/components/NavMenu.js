@@ -9,20 +9,19 @@ const NavMenuStyle = styled.div`
   left: 0;
   width: 100%;
   padding: 1rem 0;
-  background: var (--dark-bg);
-
+  background: var(--dark-bg);
   ul {
     max-width: 1200px;
     margin: 0 auto;
     width: 90%;
     text-align: center;
-    li{
+    li {
       display: inline-block;
       border-radius: 8px;
-      transition: .3s ease background-color;
-      & hover{
-        background-color: var(--deep-black);
-      };
+      transition: 0.3s ease background-color;
+      &:hover {
+        background-color: var(--deep-dark);
+      }
     }
     a {
       display: inline-block;
