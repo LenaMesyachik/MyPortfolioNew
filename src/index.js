@@ -5,12 +5,15 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import GlobalStyle from "./styles/GlobalStyle";
 import Typography from "./styles/Typography";
+import {BrowserRouter} from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
+      <BrowserRouter>
       <GlobalStyle/>
       <Typography/>
     <App />
+      </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
