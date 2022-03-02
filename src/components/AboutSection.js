@@ -1,5 +1,5 @@
 import React from 'react';
-import SectionTitle from "./SectionTitle";
+import ProjectsTitle from "./ProjectItem";
 import styled from "styled-components";
 import PText from "./PText";
 import Button from "./Button";
@@ -75,7 +75,7 @@ function AboutSection(props) {
         <AboutSectionStyles>
                 <div className='container'>
                     <div className='aboutSection__left'>
-                        <SectionTitle
+                        <ProjectsTitle
                             subheading="Let me introduce myself"
                             heading="About Me"/>
                         <PText text={' I am working as a freelance front-end developer.'}/>

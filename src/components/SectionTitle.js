@@ -23,7 +23,7 @@ const SectionTitleStyle = styled.div`
     }
   }
 `;
-function SectionTitle( {subheading,heading,...props}) {
+function SectionTitle({subheading,heading,...props}) {
     return (
         <SectionTitleStyle className="section-title">
             <p>{subheading}</p>
