@@ -55,13 +55,6 @@ const ProjectSectionStyle = styled.div`
   }
 `;
 
-
-
-
-
-
-
-
 function ProjectsSection(props) {
     return (
         <ProjectSectionStyle>

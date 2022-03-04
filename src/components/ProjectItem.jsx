@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-/*import ProjectImg from '../assets/images/projectImg.png';*/
+import ProjectImg from '../assets/img/494-4948382_production-project-management-programming-development-project-stage-icon.png';
 
 const ProjectItemStyles = styled.div`
   .projectItem__img {
@@ -37,14 +37,14 @@ const ProjectItemStyles = styled.div`
 `;
 
 export default function ProjectItem({
-                                        /*img = ProjectImg,*/
+                                        img = ProjectImg,
                                         title = 'Project Name',
                                         desc = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
                                     }) {
     return (
         <ProjectItemStyles>
             <Link to="/projects" className="projectItem__img">
-               {/* <img src={img} alt="project img" />*/}
+                <img src={img} alt="project img" />
             </Link>
             <div className="projectItem__info">
                 <Link to="#">

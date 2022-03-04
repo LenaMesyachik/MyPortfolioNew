@@ -4,6 +4,7 @@ import styled from "styled-components";
 import PText from "./PText";
 import Button from "./Button";
 import AboutImg from '../assets/img/photo_2022-02-26_14-26-32.jpg'
+import SectionTitle from "./SectionTitle";
 
 const AboutSectionStyles = styled.div`
   padding: 10rem 0;
@@ -75,7 +76,7 @@ function AboutSection(props) {
         <AboutSectionStyles>
                 <div className='container'>
                     <div className='aboutSection__left'>
-                        <ProjectsTitle
+                        <SectionTitle
                             subheading="Let me introduce myself"
                             heading="About Me"/>
                         <PText text={' I am working as a freelance front-end developer.'}/>
