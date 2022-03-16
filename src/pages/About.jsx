@@ -102,9 +102,9 @@ export default function About() {
                             </p>
                             <h2 className="about__heading">A front-end developer</h2>
                             <div className="about__info">
-                                <PText text ='some text'/>
-                                <PText text = 'some text'/>
-                                <PText text = 'some text'/>
+                                <PText text='some text'/>
+                                <PText text='some text'/>
+                                <PText text='some text'/>
                             </div>
                             <Button btnText="Download CV" btnLink="#"/>
                         </div>

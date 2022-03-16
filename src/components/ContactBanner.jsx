@@ -29,7 +29,7 @@ export default function ContactBanner() {
                 <div className="contactBanner__wrapper">
                     <PText text='Have a project in mind'/>
                     <h3 className="contactBanner__heading">Let me help you</h3>
-                    <Button btnText="Contact Now" btnLink="/contact" />
+                    <Button btnText="Contact Now" btnLink="/contact"/>
                 </div>
             </div>
         </ContactBannerStyles>

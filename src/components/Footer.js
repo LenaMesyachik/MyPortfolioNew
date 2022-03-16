@@ -59,7 +59,7 @@ export default function Footer() {
                 <div className="footer__col1">
                     <h1 className="footer__col1__title">Mesyachik Lena</h1>
                     <PText>
-                       some text
+                        some text
                     </PText>
                 </div>
                 <div className="footer__col2">
